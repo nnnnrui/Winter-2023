@@ -1,0 +1,22 @@
+---
+  loss:
+    - "squared_error"
+    - "absolute_error"
+    - "huber"
+    - "quantile"
+  n_estimators:
+    - 50
+    - 100
+    - 500
+  min_weight_fraction_leaf:
+    - 0.1
+    - 0.5
+  random_state:
+    - 12
+  max_features:
+    - "auto"
+    - "sqrt"
+  n_iter_no_change:
+    - 5
+    - 10
+    - 25

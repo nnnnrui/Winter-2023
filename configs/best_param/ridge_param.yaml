@@ -1,0 +1,21 @@
+ALCOHOLIC:
+  alpha: 10
+  solver: saga
+CANTALOUPE, HONEYDEW MELON:
+  alpha: 1
+  solver: saga
+METALLIC:
+  alpha: 100
+  solver: saga
+MOTHBALLS:
+  alpha: 5
+  solver: saga
+PINEAPPLE:
+  alpha: 1
+  solver: saga
+RAISINS:
+  alpha: 1
+  solver: saga
+SEASONING FOR MEAT:
+  alpha: 50
+  solver: saga

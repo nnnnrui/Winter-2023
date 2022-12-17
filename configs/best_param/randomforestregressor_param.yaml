@@ -1,0 +1,56 @@
+ALCOHOLIC:
+  criterion: absolute_error
+  max_features: auto
+  max_leaf_nodes: 10
+  min_samples_leaf: 5
+  min_samples_split: 0.01
+  n_estimators: 500
+  random_state: 12
+CANTALOUPE, HONEYDEW MELON:
+  criterion: absolute_error
+  max_features: auto
+  max_leaf_nodes: 100
+  min_samples_leaf: 5
+  min_samples_split: 0.01
+  n_estimators: 500
+  random_state: 12
+METALLIC:
+  criterion: poisson
+  max_features: log2
+  max_leaf_nodes: 100
+  min_samples_leaf: 1
+  min_samples_split: 0.01
+  n_estimators: 500
+  random_state: 12
+MOTHBALLS:
+  criterion: poisson
+  max_features: sqrt
+  max_leaf_nodes: 100
+  min_samples_leaf: 1
+  min_samples_split: 0.01
+  n_estimators: 100
+  random_state: 12
+PINEAPPLE:
+  criterion: poisson
+  max_features: auto
+  max_leaf_nodes: 100
+  min_samples_leaf: 5
+  min_samples_split: 0.01
+  n_estimators: 500
+  random_state: 12
+RAISINS:
+  criterion: absolute_error
+  max_features: log2
+  max_leaf_nodes: 10
+  min_samples_leaf: 5
+  min_samples_split: 0.01
+  n_estimators: 500
+  random_state: 12
+SEASONING FOR MEAT:
+  criterion: squared_error
+  max_features: sqrt
+  max_leaf_nodes: 100
+  min_samples_leaf: 1
+  min_samples_split: 0.1
+  n_estimators: 500
+  random_state: 12

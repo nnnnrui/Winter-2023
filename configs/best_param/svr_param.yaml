@@ -1,0 +1,28 @@
+ALCOHOLIC:
+  C: 10
+  epsilon: 1
+  kernel: rbf
+CANTALOUPE, HONEYDEW MELON:
+  C: 10
+  epsilon: 1
+  kernel: rbf
+METALLIC:
+  C: 10
+  epsilon: 1
+  kernel: rbf
+MOTHBALLS:
+  C: 100
+  epsilon: 1
+  kernel: rbf
+PINEAPPLE:
+  C: 100
+  epsilon: 1
+  kernel: rbf
+RAISINS:
+  C: 1
+  epsilon: 1
+  kernel: poly
+SEASONING FOR MEAT:
+  C: 1
+  epsilon: 1
+  kernel: rbf

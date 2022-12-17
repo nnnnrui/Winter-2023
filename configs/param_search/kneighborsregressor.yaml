@@ -1,0 +1,12 @@
+---
+  n_neighbors: 
+    - 3
+    - 5
+    - 10
+  weights:
+    - "uniform"
+    - "distance"
+  leaf_size:
+    - 10
+    - 30
+    - 50

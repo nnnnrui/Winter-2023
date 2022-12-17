@@ -1,0 +1,3 @@
+leaf_size: 10
+n_neighbors: 10
+weights: uniform
