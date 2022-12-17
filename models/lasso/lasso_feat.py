@@ -1,6 +1,6 @@
 from datamodule.datasets.kellerdataset import KellerDataset
 import pandas as pd
-from models.within_dataset import prepare_full_data
+from models.cv import prepare_full_data
 
 import numpy as np
 
