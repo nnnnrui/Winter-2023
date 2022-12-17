@@ -1,0 +1,67 @@
+,PubChem ID,Common Name,Smile,Odor Descriptor,Similarity Score,cOR5A2 activity
+1,6669,musk ketone,CC(C)(C)C1=C([N+]([O-])=O)C(C)=C(C(C)=O)C(C)=C1[N+]([O-])=O,"['musk','fatty','soapy','dry','floral','powdery']",,Active
+2,62329,musk xylol,CC1=C([N+]([O-])=O)C(C(C)(C)C)=C([N+]([O-])=O)C(C)=C1[N+]([O-])=O,"{'soapy', 'sweet', 'musk', 'fatty', 'dry'}",,Active
+3,5315941,civettone,O=C1CCCCCCC/C=C\CCCCCCC1,"{'animal', 'sweet', 'clean', 'musk', 'dry'}",,Active
+4,534634,globanoneTM,O=C1CCCCCC/C=C\CCCCCCC1,"{'animal', 'floral', 'musk', 'cloth laundered cloth', 'waxy', 'balsamic', 'tobacco', 'dry'}",,Active
+5,10409,cyclopentadecanone,O=C1CCCCCCCCCCCCCC1,"{'musk', 'natural', 'greasy', 'animal', 'powdery'}",,Active
+6,54116156,muscenoneTM delta,CC1CC=CCCCCCCCCCC(=O)C1,"{'animal', 'musk', 'soapy'}",,Active
+7,10947,muscone,CC(C1)CCCCCCCCCCCCC1=O,"{'sweet', 'musk', 'fatty', 'natural', 'animal', 'powdery'}",,Active
+8,66823518,cosmone TM,O=C1CC(C)C/C=C/CCCCCCCC1,"{'musk', 'cloth laundered cloth', 'fatty', 'anisic', 'animal', 'powdery', 'woody', 'ambergris'}",,Active
+9,107327,cyclopentadecanol,OC1CCCCCCCCCCCCCC1,Not listed in Goodscent,,Active
+10,61014,ethylene brassylate,O=C(CCCCCCCCCCC1)OCCOC1=O,"['powdery','sweet','floral','ambrette','musk','woody']",,Active
+11,3591866,ambrettolide,O=C1OCCCCCCCCC/C=C\CCCC1,"{'berry', 'soapy', 'sweet', 'musk', 'amber', 'fruity'}",,Active
+12,12410118,habanolideTM,C1CCCCCCOC(=O)C=CCCCCC1,"{'animal', 'sweet', 'metallic', 'tropical', 'musk', 'waxy', 'cloth laundered cloth', 'dry', 'powdery'}",,Active
+13,235414,pentalide,O=C1CCCCCCCCCCCCCCO1,"{'musk', 'natural', 'animal', 'powdery', 'fruity'}",,Active
+14,91497,galaxolide,CC(C(C)C1(C)C)(C)C2=C1C=C(COCC3C)C3=C2,"{'floral', 'musk', 'sweet'}",,Active
+15,89440,tentarome,CC(C1=C(C2(C)C)C=C(C(C)=O)C(C)=C1)(C(C)C2)C,"['strong','sweet','amber','fruity','musk','powdery']",,Active
+16,61585,celestolide,CC1(C)CCC2=C1C=C(C(C)(C)C)C=C2C(C)=O,"['musk','animal','cedar','ambergris','woody']",,Active
+17,16063567,helvetolide,CCC(OCC(C)(C)OC(C)C1CCCC(C)(C)C1)=O,"{'floral', 'ambrette', 'musk', 'woody', 'fruity', 'pear'}",,Active
+18,21933618,romandolide TM,CCC(OCC(OC(C)C1CCCC(C)(C)C1)=O)=O,"['musk','ambrette','fruity','berry']",,Active
+19,13690,omega-dodecanolactam,O=C1CCCCCCCCCCCN1,Not listed in Goodscent,,Active
+20,92030006,amber xtreme TM,CC1(C)OC2C3C(C(C)(C)C(C)C3(C)C)CCC2C1,"{'animal', 'musk', 'spicy', 'woody'}",,Active
+21,638014,beta-ionone,O=C(/C=C/C1=C(CCCC1(C)C)C)C,"{'violet', 'floral', 'woody', 'sweet'}",,Not active
+22,162452,ambrinol,OC1(C)CCC2C(C)(C)CCC=C2C1,"['amber','musk','animal','woody old wood','earthy']",,Not active
+23,118976605,Ysamber TM K,CC1(C)C2CCC3(C2)C1C4(OCCO4)CCC3(C)C,"{'musk', 'woody', 'dry', 'powdery', 'amber', 'fruity', 'vetiver'}",,Not active
+24,60997,para-cresyl phenyl acetate,CC1=CC=C(C=C1)OC(CC2=CC=CC=C2)=O,"{'rose', 'narcissus', 'hyacinth', 'honey', 'animal', 'lily'}",,Not active
+25,93639,amberketal,CC1(C)CCC[C@@]2(C)[C@@]1([H])CCC34[C@]2([H])CCC(C)(OC4)O3,"['amber','dry','powdery','woody','musk']",,Not active
+26,12844,delta-dodecalactone,O=C1OC(CCCCCCC)CCC1,"{'fresh', 'coconut', 'sweet', 'tropical', 'metallic', 'oily', 'peach', 'buttery'}",,Not active
+27,67525,cyclopentadecane,C1CCCCCCCCCCCCCC1,Not listed in Goodscent,,Not active
+28,61303,2-pentadecanone,CCCCCCCCCCCCCC(C)=O,"{'fresh', 'floral', 'jasmin', 'celery', 'waxy', 'oily', 'fatty', 'burnt'}",,Not active
+29,120101,calone,O=C1COC2=CC=C(C)C=C2OC1,"{'fresh', 'clean', 'green', 'watery', 'phenolic', 'marine', 'ozone', 'melon'}",,Not active
+30,62098,heliotropyl acetone,O=C(CCC1=CC=C2C(OCO2)=C1)C,"{'floral', 'cotton candy', 'sweet', 'raspberry', 'heliotrope', 'powdery'}",,Not active
+31,13162,8-pentadecanone,CCCCCCCC(CCCCCCC)=O,Not listed in Goodscent,,Not active
+32,112152,florex TM,O=C(CCC1C/2C3)OC1C3CC2=C/C,"{'spicy', 'sweet', 'tonka', 'green', 'balsamic', 'tobacco', 'woody'}",,Not active
+33,62341,styralyl acetate,CC(OC(C1=CC=CC=C1)C)=O,"{'rhubarb', 'musty', 'leafy', 'green', 'gardenia'}",,Not active
+34,32052,beta-damascone,C/C=C/C(C1=C(C)CCCC1(C)C)=O,"{'floral', 'currant black currant', 'rose', 'tobacco', 'honey', 'plum', 'fruity'}",,Not active
+35,10857465,ambroxan TM,CC1(C)CCC[C@@]2(C)[C@@]1([H])CC[C@]3(C)[C@]2([H])CCO3,"{'sweet', 'musk', 'dry', 'ambergris', 'amber', 'woody'}",,Not active
+36,90978,isolongifolanone,O=C1C(C2(C)C)C3(C(C)(C)CC1)CC2CC3,"{'incense', 'earthy', 'patchouli', 'tobacco', 'dry', 'cedar', 'woody'}",,Not active
+37,16220111,methyl cedryl ketone,CC(C1=C(C)[C@@]2([H])C(C)(C)[C@]3([H])CC[C@@H](C)[C@@]3(C2)C1)=O,"['woody','vetiver','amber','leathery','musk','cedar']",,Not active
+38,7059,6-methyl quinoline,CC1=CC=C(N=CC=C2)C2=C1,"{'fecal', 'tonka', 'civet', 'tobacco', 'animal', 'leathery', 'castoreum'}",,Not active
+39,21648,raspberry ketone,OC1=CC=C(CCC(C)=O)C=C1,"{'berry', 'jammy', 'floral', 'sweet', 'raspberry', 'ripe'}",,Not active
+40,7392,para-tert-butyl cyclohexanone,O=C1CCC(C(C)(C)C)CC1,"['woody','minty','patchouli','musk','leathery']",,Not active
+41,118292,kephalis,O=C1CC(C)(C)C(C(OCC)=C)C(C)(C)C1,"{'herbal', 'tobacco', 'woody old wood', 'amber', 'woody'}",,Not active
+42,164422,amber core TM,CC(C)(C)C1C(OCC(O)CC)CCCC1,"{'ambrette', 'amber', 'woody'}",,Not active
+43,929262,(R)-(+)-sclareolide,CC1(C)CCC[C@@]2(C)[C@@]1([H])CC[C@](O3)(C)[C@]2([H])CC3=O,"{'dry', 'ambergris', 'paper', 'labdanum', 'woody'}",,Not active
+44,108242,iso e super ,CC(C1(C)CC2=C(CCCC2(C)C)CC1C)=O,"{'phenolic', 'ketonic', 'woody old wood', 'dry', 'ambergris', 'cedar', 'woody'}",,Not active
+45,94111,	boisambrene TM forte,CCOCOC1CCCCCCCCCCC1,"{'dry', 'dusty', 'ambergris', 'cedar', 'amber', 'woody'}",,Not active
+46,6438195,sandalmysore core TM,OC/C(C)=C/CC1C(C)(C)C(C)=CC1,"{'sandalwood', 'creamy', 'musk', 'waxy', 'greasy', 'milky', 'woody'}",,Not active
+47,7122,beta-naphthyl methyl ketone,O=C(C)C1=CC=C2C=CC=CC2=C1,"{'floral', 'sweet', 'orangeflower', 'honey', 'neroli', 'powdery'}",,Not active
+48,6365389,Musk Z4,C1CCCCCC(=O)CC/C=C\CCCC1,"['musk','animal','natural','gourmand','fruity','powdery']",0.894736842105263,Active
+49,7984,16-Hexadecanolide,C1CCCCCCCC(=O)OCCCCCCC1,"['musk','sweet','balsamic','amber','animal']",1,Active
+50,75695,isomusconeTM,C1CCCCCCCC(=O)CCCCCCC1,"{'animal', 'powdery', 'musk'}",1,Active
+51,162268,5-Cyclohexadecen-1-one,C1CCCCCC(=O)CCCC=CCCCC1,"{'civet', 'musk', 'dry', 'powdery', 'amber'}",0.944444444444444,Active
+52,74408,OxalideTM T,C1CCCCOCCCCCCOC(=O)CCC1,"{'floral', 'sweet', 'musk', 'oily', 'animal', 'fruity'}",0.85,Active
+53,18826,musk R-1TM,C1CCCCC(=O)OCCCCCOCCCC1,"{'incense', 'sweet', 'musk', 'oily', 'animal', 'amber'}",0.85,Active
+54,67350,musk tibetene,CC1=C(C(=C(C(=C1C)[N+](=O)[O-])C(C)(C)C)[N+](=O)[O-])C,"{'powdery', 'fatty', 'musk', 'sweet'}",0.826086956521739,Active
+55,41270,ethylene dodecanoate,C1CCCCCC(=O)OCCOC(=O)CCCC1,"{'sweet', 'clean', 'musk', 'waxy', 'animal'}",1,Active
+56,23173,cervolide,C1CCCCCOCCCCOC(=O)CCCC1,"{'sweet', 'musk', 'waxy', 'fruity', 'woody'}",0.85,Active
+57,7160826,l-muscone,C[C@@H]1CCCCCCCCCCCCC(=O)C1,"{'animal', 'powdery', 'musk'}",1,Active
+58,91339,rosamusk,CC(C1CCCC(C1)(C)C)OC(=O)C,"{'floral', 'rose', 'musk', 'geranium', 'fruity'}",0.619047619047619,Not active
+75,7967,cyclohexanone,C1CCC(=O)CC1,"{'acetone', 'minty'}",1,Not active
+76,57357974,TrisamberTM,CC1CC2CCC3C(C2O1)C(C(C3(C)C)C)(C)C,"{'animal', 'dusty', 'dry', 'amber', 'woody'}",0.567567567567567,Not active
+77,62583,7-butyloxepan-2-one,CCCCC1CCCCC(=O)O1,"{'creamy', 'tonka', 'coumarinic', 'sweet'}",0.78125,Not active
+78,7302,gamma-butyrolactone,C1CC(=O)OC1,"{'fatty', 'oily', 'creamy', 'caramellic'}",0.777777777777777,Not active
+79,11567,3-methylcyclohexan-1-one,CC1CCCC(=O)C1,"{'minty', 'camphoreous', 'medicinal'}",0.818181818181818,Not active
+80,8452,cyclopentanone,C1CCC(=O)C1,{'minty'},0.909090909090909,Not active
+81,7966,cyclohexanol,C1CCC(CC1)O,"{'phenolic', 'camphoreous', 'mentholic'}",1,Not active
+82,7768,azepan-2-one,C1CCC(=O)NCC1,"{'spicy', 'amine'}",1,Not active
