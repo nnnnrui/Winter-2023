@@ -1,0 +1,278 @@
+"Table S4 Training dataset and prediction result in machine learning, related to Figure 4.",,,,,,,,
+,,No.,PubChem ID,Common name,Smile,Odor descriptor (Red includes musky),Tanimoto Similarity score,cOR5A2 activity
+Training data,Agonist,1,6669,musk ketone,CC(C)(C)C1=C([N+]([O-])=O)C(C)=C(C(C)=O)C(C)=C1[N+]([O-])=O,"['musk','fatty','soapy','dry','floral','powdery']",,Active
+,,2,62329,musk xylol,CC1=C([N+]([O-])=O)C(C(C)(C)C)=C([N+]([O-])=O)C(C)=C1[N+]([O-])=O,"{'soapy', 'sweet', 'musk', 'fatty', 'dry'}",,Active
+,,3,5315941,civettone,O=C1CCCCCCC/C=C\CCCCCCC1,"{'animal', 'sweet', 'clean', 'musk', 'dry'}",,Active
+,,4,534634,globanoneTM,O=C1CCCCCC/C=C\CCCCCCC1,"{'animal', 'floral', 'musk', 'cloth laundered cloth', 'waxy', 'balsamic', 'tobacco', 'dry'}",,Active
+,,5,10409,cyclopentadecanone,O=C1CCCCCCCCCCCCCC1,"{'musk', 'natural', 'greasy', 'animal', 'powdery'}",,Active
+,,6,54116156,muscenoneTM delta,CC1CC=CCCCCCCCCCC(=O)C1,"{'animal', 'musk', 'soapy'}",,Active
+,,7,10947,muscone,CC(C1)CCCCCCCCCCCCC1=O,"{'sweet', 'musk', 'fatty', 'natural', 'animal', 'powdery'}",,Active
+,,8,66823518,cosmone TM,O=C1CC(C)C/C=C/CCCCCCCC1,"{'musk', 'cloth laundered cloth', 'fatty', 'anisic', 'animal', 'powdery', 'woody', 'ambergris'}",,Active
+,,9,107327,cyclopentadecanol,OC1CCCCCCCCCCCCCC1,Not listed in Goodscent,,Active
+,,10,61014,ethylene brassylate,O=C(CCCCCCCCCCC1)OCCOC1=O,"['powdery','sweet','floral','ambrette','musk','woody']",,Active
+,,11,3591866,ambrettolide,O=C1OCCCCCCCCC/C=C\CCCC1,"{'berry', 'soapy', 'sweet', 'musk', 'amber', 'fruity'}",,Active
+,,12,12410118,habanolideTM,C1CCCCCCOC(=O)C=CCCCCC1,"{'animal', 'sweet', 'metallic', 'tropical', 'musk', 'waxy', 'cloth laundered cloth', 'dry', 'powdery'}",,Active
+,,13,235414,pentalide,O=C1CCCCCCCCCCCCCCO1,"{'musk', 'natural', 'animal', 'powdery', 'fruity'}",,Active
+,,14,91497,galaxolide,CC(C(C)C1(C)C)(C)C2=C1C=C(COCC3C)C3=C2,"{'floral', 'musk', 'sweet'}",,Active
+,,15,89440,tentarome,CC(C1=C(C2(C)C)C=C(C(C)=O)C(C)=C1)(C(C)C2)C,"['strong','sweet','amber','fruity','musk','powdery']",,Active
+,,16,61585,celestolide,CC1(C)CCC2=C1C=C(C(C)(C)C)C=C2C(C)=O,"['musk','animal','cedar','ambergris','woody']",,Active
+,,17,16063567,helvetolide,CCC(OCC(C)(C)OC(C)C1CCCC(C)(C)C1)=O,"{'floral', 'ambrette', 'musk', 'woody', 'fruity', 'pear'}",,Active
+,,18,21933618,romandolide TM,CCC(OCC(OC(C)C1CCCC(C)(C)C1)=O)=O,"['musk','ambrette','fruity','berry']",,Active
+,,19,13690,omega-dodecanolactam,O=C1CCCCCCCCCCCN1,Not listed in Goodscent,,Active
+,,20,92030006,amber xtreme TM,CC1(C)OC2C3C(C(C)(C)C(C)C3(C)C)CCC2C1,"{'animal', 'musk', 'spicy', 'woody'}",,Active
+,"Non
+agonist",21,638014,beta-ionone,O=C(/C=C/C1=C(CCCC1(C)C)C)C,"{'violet', 'floral', 'woody', 'sweet'}",,Not active
+,,22,162452,ambrinol,OC1(C)CCC2C(C)(C)CCC=C2C1,"['amber','musk','animal','woody old wood','earthy']",,Not active
+,,23,118976605,Ysamber TM K,CC1(C)C2CCC3(C2)C1C4(OCCO4)CCC3(C)C,"{'musk', 'woody', 'dry', 'powdery', 'amber', 'fruity', 'vetiver'}",,Not active
+,,24,60997,para-cresyl phenyl acetate,CC1=CC=C(C=C1)OC(CC2=CC=CC=C2)=O,"{'rose', 'narcissus', 'hyacinth', 'honey', 'animal', 'lily'}",,Not active
+,,25,93639,amberketal,CC1(C)CCC[C@@]2(C)[C@@]1([H])CCC34[C@]2([H])CCC(C)(OC4)O3,"['amber','dry','powdery','woody','musk']",,Not active
+,,26,12844,delta-dodecalactone,O=C1OC(CCCCCCC)CCC1,"{'fresh', 'coconut', 'sweet', 'tropical', 'metallic', 'oily', 'peach', 'buttery'}",,Not active
+,,27,67525,cyclopentadecane,C1CCCCCCCCCCCCCC1,Not listed in Goodscent,,Not active
+,,29,61303,2-pentadecanone,CCCCCCCCCCCCCC(C)=O,"{'fresh', 'floral', 'jasmin', 'celery', 'waxy', 'oily', 'fatty', 'burnt'}",,Not active
+,,30,120101,calone,O=C1COC2=CC=C(C)C=C2OC1,"{'fresh', 'clean', 'green', 'watery', 'phenolic', 'marine', 'ozone', 'melon'}",,Not active
+,,31,62098,heliotropyl acetone,O=C(CCC1=CC=C2C(OCO2)=C1)C,"{'floral', 'cotton candy', 'sweet', 'raspberry', 'heliotrope', 'powdery'}",,Not active
+,,32,13162,8-pentadecanone,CCCCCCCC(CCCCCCC)=O,Not listed in Goodscent,,Not active
+,,33,112152,florex TM,O=C(CCC1C/2C3)OC1C3CC2=C/C,"{'spicy', 'sweet', 'tonka', 'green', 'balsamic', 'tobacco', 'woody'}",,Not active
+,,34,62341,styralyl acetate,CC(OC(C1=CC=CC=C1)C)=O,"{'rhubarb', 'musty', 'leafy', 'green', 'gardenia'}",,Not active
+,,35,32052,beta-damascone,C/C=C/C(C1=C(C)CCCC1(C)C)=O,"{'floral', 'currant black currant', 'rose', 'tobacco', 'honey', 'plum', 'fruity'}",,Not active
+,,36,10857465,ambroxan TM,CC1(C)CCC[C@@]2(C)[C@@]1([H])CC[C@]3(C)[C@]2([H])CCO3,"{'sweet', 'musk', 'dry', 'ambergris', 'amber', 'woody'}",,Not active
+,,37,90978,isolongifolanone,O=C1C(C2(C)C)C3(C(C)(C)CC1)CC2CC3,"{'incense', 'earthy', 'patchouli', 'tobacco', 'dry', 'cedar', 'woody'}",,Not active
+,,38,16220111,methyl cedryl ketone,CC(C1=C(C)[C@@]2([H])C(C)(C)[C@]3([H])CC[C@@H](C)[C@@]3(C2)C1)=O,"['woody','vetiver','amber','leathery','musk','cedar']",,Not active
+,,39,7059,6-methyl quinoline,CC1=CC=C(N=CC=C2)C2=C1,"{'fecal', 'tonka', 'civet', 'tobacco', 'animal', 'leathery', 'castoreum'}",,Not active
+,,40,21648,raspberry ketone,OC1=CC=C(CCC(C)=O)C=C1,"{'berry', 'jammy', 'floral', 'sweet', 'raspberry', 'ripe'}",,Not active
+,,41,7392,para-tert-butyl cyclohexanone,O=C1CCC(C(C)(C)C)CC1,"['woody','minty','patchouli','musk','leathery']",,Not active
+,,42,118292,kephalis,O=C1CC(C)(C)C(C(OCC)=C)C(C)(C)C1,"{'herbal', 'tobacco', 'woody old wood', 'amber', 'woody'}",,Not active
+,,43,164422,amber core TM,CC(C)(C)C1C(OCC(O)CC)CCCC1,"{'ambrette', 'amber', 'woody'}",,Not active
+,,44,929262,(R)-(+)-sclareolide,CC1(C)CCC[C@@]2(C)[C@@]1([H])CC[C@](O3)(C)[C@]2([H])CC3=O,"{'dry', 'ambergris', 'paper', 'labdanum', 'woody'}",,Not active
+,,45,108242,iso e super ,CC(C1(C)CC2=C(CCCC2(C)C)CC1C)=O,"{'phenolic', 'ketonic', 'woody old wood', 'dry', 'ambergris', 'cedar', 'woody'}",,Not active
+,,46,94111,"	boisambrene TM forte",CCOCOC1CCCCCCCCCCC1,"{'dry', 'dusty', 'ambergris', 'cedar', 'amber', 'woody'}",,Not active
+,,47,6438195,sandalmysore core TM,OC/C(C)=C/CC1C(C)(C)C(C)=CC1,"{'sandalwood', 'creamy', 'musk', 'waxy', 'greasy', 'milky', 'woody'}",,Not active
+,,48,7122,beta-naphthyl methyl ketone,O=C(C)C1=CC=C2C=CC=CC2=C1,"{'floral', 'sweet', 'orangeflower', 'honey', 'neroli', 'powdery'}",,Not active
+"Prediction
+result","True positive
+(with odor descriptor of musk)",49,6365389,Musk Z4,C1CCCCCC(=O)CC/C=C\CCCC1,"['musk','animal','natural','gourmand','fruity','powdery']",0.894736842,Active
+,,50,7984,16-Hexadecanolide,C1CCCCCCCC(=O)OCCCCCCC1,"['musk','sweet','balsamic','amber','animal']",1,Active
+,,51,75695,isomusconeTM,C1CCCCCCCC(=O)CCCCCCC1,"{'animal', 'powdery', 'musk'}",1,Active
+,,52,162268,5-Cyclohexadecen-1-one,C1CCCCCC(=O)CCCC=CCCCC1,"{'civet', 'musk', 'dry', 'powdery', 'amber'}",0.944444444,Active
+,,53,74408,OxalideTM T,C1CCCCOCCCCCCOC(=O)CCC1,"{'floral', 'sweet', 'musk', 'oily', 'animal', 'fruity'}",0.85,Active
+,,54,18826,musk R-1TM,C1CCCCC(=O)OCCCCCOCCCC1,"{'incense', 'sweet', 'musk', 'oily', 'animal', 'amber'}",0.85,Active
+,,55,67350,musk tibetene,CC1=C(C(=C(C(=C1C)[N+](=O)[O-])C(C)(C)C)[N+](=O)[O-])C,"{'powdery', 'fatty', 'musk', 'sweet'}",0.826086957,Active
+,,56,41270,ethylene dodecanoate,C1CCCCCC(=O)OCCOC(=O)CCCC1,"{'sweet', 'clean', 'musk', 'waxy', 'animal'}",1,Active
+,,57,23173,cervolide,C1CCCCCOCCCCOC(=O)CCCC1,"{'sweet', 'musk', 'waxy', 'fruity', 'woody'}",0.85,Active
+,,58,7160826,l-muscone,C[C@@H]1CCCCCCCCCCCCC(=O)C1,"{'animal', 'powdery', 'musk'}",1,Active
+,,59,91339,rosamusk,CC(C1CCCC(C1)(C)C)OC(=O)C,"{'floral', 'rose', 'musk', 'geranium', 'fruity'}",0.619047619,Not active
+,,60,53750858,cyclohexadec-2-en-1-one,C1CCCCCCC=CC(=O)CCCCCC1,"{'balsamic', 'powdery', 'clean', 'musk'}",0.565217391,
+,,61,57759198,"3-O-[1-(3,3-dimethylcyclohexyl)ethyl] 1-O-ethyl propanedioate",CCOC(=O)CC(=O)OC(C)C1CCCC(C1)(C)C,"{'fresh', 'apple', 'creamy', 'musk', 'warm', 'powdery', 'fruity'}",0.688888889,
+,,62,9856149,(12E)-1-oxacyclohexadec-12-en-2-one,C1CCCC/C=C/CCCOC(=O)CCCC1,"['musk','sweet','waxy','dry','powdery','cloth laundered cloth','metallic','animal','tropical']",0.916666667,
+,,63,77226,cycloheptadecanone,C1CCCCCCCCC(=O)CCCCCCC1,{'musk'},1,
+,,64,78653,1-oxacyclohexadec-13-en-2-one,C1CCCCCC(=O)OCCC=CCCCC1,{'musk'},0.84,
+,,65,102714,"4,6,6,9,9-pentamethyl-3,4,7,8-tetrahydro-1H-benzo[g]isochromene",CC1COCC2=CC3=C(C=C12)C(CCC3(C)C)(C)C,{'musk'},0.714285714,
+,,66,3094320,"oxacyclohexadecane-2,13-dione",C1CCCCCC(=O)OCCCC(=O)CCCC1,{'musk'},0.85,
+,,67,6436339,(13E)-1-oxacyclohexadec-13-en-2-one,C1CCCCCC(=O)OCC/C=C/CCCC1,{'musk'},0.84,
+,,68,11608392,(12Z)-1-oxacyclohexadec-12-en-2-one,C1CCCC/C=C\CCCOC(=O)CCCC1,{'musk'},0.916666667,
+,,69,11855994,(5Z)-3-methylcyclotetradec-5-en-1-one,CC1C/C=C\CCCCCCCCC(=O)C1,{'musk'},1,
+,,70,12022011,"[2-[1-(3,3-dimethylcyclohexyl)ethoxy]-2-methylpropyl] cyclopropanecarboxylate",CC(C1CCCC(C1)(C)C)OC(C)(C)COC(=O)C2CC2,{'musk'},0.782608696,
+,,71,20837946,(7E)-cyclohexadec-7-en-1-one,C1CCCCC(=O)CCCCC/C=C/CCC1,{'musk'},1,
+,,72,5355293,(10Z)-1-oxacycloheptadec-10-en-2-one,C1CCC/C=C\CCCCCCOC(=O)CCC1,"{'ambrette', 'sweet', 'musk', 'waxy', 'fatty', 'fruity'}",1,
+,,73,5365703,(8Z)-1-oxacycloheptadec-8-en-2-one,C1CCCCOC(=O)CCCCC/C=C\CCC1,"{'animal', 'musk', 'musty', 'ambrette'}",1,
+,,74,47167,"1-(1,1,2,3,3,6-hexamethyl-2H-inden-5-yl)ethanone",CC1C(C2=C(C1(C)C)C=C(C(=C2)C)C(=O)C)(C)C,"{'sweet', 'musk', 'dry', 'powdery', 'amber', 'fruity'}",0.666666667,
+,,75,6438075,(4E)-3-methylcyclopentadec-4-en-1-one,CC\1CC(=O)CCCCCCCCCC/C=C1,"{'animal', 'musk', 'soapy'}",0.606060606,
+,"False positive
+(without odor descriptor of musk)",76,7967,cyclohexanone,C1CCC(=O)CC1,"{'acetone', 'minty'}",1,Not active
+,,77,57357974,TrisamberTM,CC1CC2CCC3C(C2O1)C(C(C3(C)C)C)(C)C,"{'animal', 'dusty', 'dry', 'amber', 'woody'}",0.567567568,Not active
+,,78,62583,7-butyloxepan-2-one,CCCCC1CCCCC(=O)O1,"{'creamy', 'tonka', 'coumarinic', 'sweet'}",0.78125,Not active
+,,79,7302,gamma-butyrolactone,C1CC(=O)OC1,"{'fatty', 'oily', 'creamy', 'caramellic'}",0.777777778,Not active
+,,80,11567,3-methylcyclohexan-1-one,CC1CCCC(=O)C1,"{'minty', 'camphoreous', 'medicinal'}",0.818181818,Not active
+,,81,8452,cyclopentanone,C1CCC(=O)C1,{'minty'},0.909090909,Not active
+,,82,7966,cyclohexanol,C1CCC(CC1)O,"{'phenolic', 'camphoreous', 'mentholic'}",1,Not active
+,,83,7768,azepan-2-one,C1CCC(=O)NCC1,"{'spicy', 'amine'}",1,Not active
+,,84,61835,7-hexyloxepan-2-one,CCCCCCC1CCCCC(=O)O1,"{'peach', 'celery', 'fruity', 'sweet'}",0.903225806,
+,"True negative
+(without odor descriptor of musk)",85,11322274,"1-[(1R,2S)-1,2,8,8-tetramethyl-1,3,4,5,6,7-hexahydronaphthalen-2-yl]ethanone",C[C@@H]1C2=C(CCCC2(C)C)CC[C@]1(C)C(=O)C,"{'floral', 'amber', 'woody'}",0.536585366,
+,,86,5375215,"(E)-4-(2,5,6,6-tetramethylcyclohexen-1-yl)but-3-en-2-one",CC1CCC(=C(C1(C)C)/C=C/C(=O)C)C,"{'violet', 'fresh', 'floral', 'berry', 'sweet', 'powdery', 'woody'}",0.538461538,
+,,87,162061,methoxymethoxycyclododecane,COCOC1CCCCCCCCCCC1,"{'dusty', 'dry', 'ambergris', 'cedar', 'amber', 'woody'}",0.6,
+,,88,11264326,ethoxycyclododecane,CCOC1CCCCCCCCCCC1,"{'oil', 'vetiver'}",0.652173913,
+,,89,19137,[4-(3-oxobutyl)phenyl] acetate,CC(=O)CCC1=CC=C(C=C1)OC(=O)C,"{'berry', 'jammy', 'blueberry', 'raspberry'}",0.6,
+,,90,61404,"undecane-2,3-dione",CCCCCCCCC(=O)C(=O)C,"{'creamy', 'waxy', 'aldehydic', 'fatty', 'dairy'}",0.636363636,
+,,91,11449,"octane-2,3-dione",CCCCCC(=O)C(=O)C,"{'dill', 'asparagus', 'earthy', 'herbal', 'aldehydic', 'cortex', 'fatty', 'cilantro'}",0.590909091,
+,,92,133082060,"3-oxohexadecanoic acid;propane-1,2,3-triol",CCCCCCCCCCCCCC(=O)CC(=O)O.C(C(CO)O)O,"{'fatty', 'mild'}",0.517241379,
+,,93,6428959,4-oxodecanal,CCCCCCC(=O)CCC=O,{'fatty'},0.695652174,
+,,94,95008,(2-acetyloxy-2-phenylethyl) acetate,CC(=O)OCC(C1=CC=CC=C1)OC(=O)C,"{'floral', 'gardenia', 'balsamic', 'hyacinth', 'honey', 'muguet', 'vetiver'}",0.545454545,
+,,95,57347404,"3-oxotetradecanoic acid;propane-1,2,3-triol",CCCCCCCCCCCC(=O)CC(=O)O.C(C(CO)O)O,{'odorless'},0.517241379,
+,,96,69346,5-oxodecanoic acid,CCCCCC(=O)CCCC(=O)O,"{'peach', 'creamy'}",0.714285714,
+,,97,12678469,3-oxononyl acetate,CCCCCCC(=O)CCOC(=O)C,"{'waxy', 'floral', 'fruity', 'reseda'}",0.64,
+,,98,9253,cyclopentane,C1CCCC1,{'petroleum'},1,
+,,99,12217499,"(3S,6S,9R)-2,2,8,8-tetramethyl-octahydro-1H-2,4a-methanonapthalen-10-one",CC1(CCC(=O)[C@H]2[C@@]13CC[C@@H](C3)C2(C)C)C,"{'patchouli', 'woody'}",1,
+,,100,27941,4-(2-methylbutan-2-yl)cyclohexan-1-one,CCC(C)(C)C1CCC(=O)CC1,"{'earthy', 'orris', 'dry', 'camphoreous', 'woody'}",0.6,
+,,101,163617,"9-ethylidene-3-oxatricyclo[6.2.1.02,7]undecane",CC=C1CC2CC1C3C2OCCC3,"{'rhubarb', 'floral', 'berry', 'rooty', 'herbal', 'fruity', 'woody', 'costus'}",0.56097561,
+,,102,1714993,(6R)-6-heptyloxan-2-one,CCCCCCC[C@@H]1CCCC(=O)O1,"{'apricot', 'lactonic', 'fruity'}",1,
+,,103,5374527,"(E)-1-(2,6,6-trimethylcyclohexen-1-yl)but-2-en-1-one",C/C=C/C(=O)C1=C(CCCC1(C)C)C,"{'berry', 'floral', 'currant black currant', 'rose', 'tobacco', 'honey', 'plum', 'fruity'}",1,
+,,104,20841446,"[(E)-1-(2,6,6-trimethylcyclohexen-1-yl)pent-1-en-3-yl] acetate",CCC(/C=C/C1=C(CCCC1(C)C)C)OC(=O)C,"{'berry', 'raspberry'}",0.545454545,
+,,105,18698,6-butyloxan-2-one,CCCCC1CCCC(=O)O1,"{'coconut', 'creamy', 'sweet', 'coumarinic', 'milky'}",0.866666667,
+,,106,11969488,6-[(E)-hex-3-enyl]oxan-2-one,CC/C=C/CCC1CCCC(=O)O1,"{'coconut', 'floral', 'creamy', 'peach', 'dairy', 'plum', 'fruity', 'buttery'}",0.578947368,
+,,107,6438070,6-[(E)-pent-2-enyl]oxan-2-one,CC/C=C/CC1CCCC(=O)O1,"{'coconut', 'floral', 'jasmin', 'tuberose', 'oily', 'peach', 'apricot', 'fruity', 'petal'}",0.526315789,
+,,108,6438319,6-[(E)-pent-3-enyl]oxan-2-one,C/C=C/CCC1CCCC(=O)O1,"{'coconut', 'floral', 'jasmin', 'tuberose', 'oily', 'peach', 'apricot', 'fruity', 'petal'}",0.552631579,
+,,109,12810,6-pentyloxan-2-one,CCCCCC1CCCC(=O)O1,"{'coconut', 'fresh', 'sweet', 'creamy', 'oily', 'peach', 'dairy', 'fruity'}",0.965517241,
+,,110,102968,6-ethyloxan-2-one,CCC1CCCC(=O)O1,"{'coconut', 'green', 'oily', 'earthy'}",0.625,
+,,111,5352626,6-[(Z)-pent-2-enyl]oxan-2-one,CC/C=C\CC1CCCC(=O)O1,"{'coconut', 'jasmin', 'creamy', 'waxy', 'peach'}",0.526315789,
+,,112,12777,6-propyloxan-2-one,CCCC1CCCC(=O)O1,"{'coconut', 'sweet', 'tropical', 'tonka', 'fatty', 'dairy'}",0.741935484,
+,,113,11435352,(6R)-6-hexyloxan-2-one,CCCCCC[C@@H]1CCCC(=O)O1,"{'creamy', 'fruity', 'sweet'}",1,
+,,114,520296,6-nonyloxan-2-one,CCCCCCCCCC1CCCC(=O)O1,"{'creamy', 'milky', 'waxy', 'oily', 'fatty', 'dairy', 'cheesy', 'buttery'}",1,
+,,115,21885377,6-pent-4-enyloxan-2-one,C=CCCCC1CCCC(=O)O1,"{'creamy', 'nutty', 'sweet'}",0.594594595,
+,,116,78122470,6-hept-4-enyloxan-2-one,CCC=CCCCC1CCCC(=O)O1,"{'fatty', 'fruity'}",0.631578947,
+,,117,121237820,6-non-4-enyloxan-2-one,CCCCC=CCCCC1CCCC(=O)O1,"{'fatty', 'fruity'}",0.722222222,
+,,118,110976,6-undecyloxan-2-one,CCCCCCCCCCCC1CCCC(=O)O1,"{'fatty', 'waxy', 'buttery', 'dairy'}",1,
+,,119,1616260,"(Z)-1-(2,6,6-trimethylcyclohexen-1-yl)but-2-en-1-one",C/C=C\C(=O)C1=C(CCCC1(C)C)C,"{'floral', 'tobacco', 'fruity', 'currant black currant'}",1,
+,,120,97996,"3-methyl-4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-one",CC1=C(C(CCC1)(C)C)C=C(C)C(=O)C,"{'floral', 'waxy', 'orris', 'ambergris', 'woody'}",0.611111111,
+,,121,5375218,"(E)-1-(2,6,6-trimethylcyclohexen-1-yl)pent-1-en-3-one",CCC(=O)/C=C/C1=C(CCCC1(C)C)C,{'floral'},0.694444444,
+,,122,8710,2-heptylcyclopentan-1-one,CCCCCCCC1CCCC1=O,"{'fresh', 'jasmin', 'tropical', 'oily', 'peach', 'fruity'}",0.527777778,
+,,123,114454,2-hexylcyclopentan-1-one,CCCCCCC1CCCC1=O,"{'fruity', 'floral', 'jasmin'}",0.527777778,
+,,124,6566009,(6S)-6-heptyloxan-2-one,CCCCCCC[C@H]1CCCC(=O)O1,"{'fruity', 'sweet'}",1,
+,,125,173536,"1-(2,6,6-trimethylcyclohexen-1-yl)pentan-1-one",CCCCC(=O)C1=C(CCCC1(C)C)C,"{'kernel', 'apricot', 'sweet'}",0.538461538,
+,,126,1714996,(6R)-6-pentyloxan-2-one,CCCCC[C@@H]1CCCC(=O)O1,"{'milky', 'fruity', 'sweet'}",0.965517241,
+,,127,110977,6-octyloxan-2-one,CCCCCCCCC1CCCC(=O)O1,"{'musty', 'creamy', 'oily', 'dairy', 'milky', 'buttery'}",1,
+,,128,9895,"2,6,6-trimethylcyclohexene-1-carbaldehyde",CC1=C(C(CCC1)(C)C)C=O,"{'rose', 'sweet', 'tropical', 'herbal', 'clean', 'green', 'saffron', 'tobacco', 'fruity'}",0.575757576,
+,,129,518573,6-tridecyloxan-2-one,CCCCCCCCCCCCCC1CCCC(=O)O1,"{'savory', 'fatty', 'waxy'}",1,
+,,130,6566010,(6S)-6-pentyloxan-2-one,CCCCC[C@H]1CCCC(=O)O1,"{'sweet', 'peach', 'fatty', 'fruity', 'buttery'}",0.965517241,
+,,131,90720,"4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-yl acetate",CC1=C(C(CCC1)(C)C)C=CC(C)OC(=O)C,"{'violet', 'berry', 'floral', 'jammy', 'sweet', 'raspberry', 'woody'}",0.585365854,
+,,132,5372151,"(E)-2-methyl-1-(2,6,6-trimethylcyclohexen-1-yl)pent-1-en-3-one",CCC(=O)/C(=C/C1=C(CCCC1(C)C)C)/C,"{'violet', 'berry', 'orris', 'powdery', 'woody'}",0.55,
+,,133,61072,"1-(2,6,6-trimethylcyclohexen-1-yl)pent-1-en-3-one",CCC(=O)C=CC1=C(CCCC1(C)C)C,"{'violet', 'floral', 'creamy', 'tropical', 'orris', 'tobacco', 'powdery', 'woody'}",0.694444444,
+,,134,26955,"4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-one",CC1=C(C(CCC1)(C)C)C=CC(=O)C,"{'violet', 'floral', 'woody', 'sweet'}",1,
+,,135,5325912,(5S)-5-propyloxolan-2-one,CCC[C@H]1CCC(=O)O1,"{'coconut', 'fatty', 'fruity', 'sweet'}",0.575757576,
+,,136,441574,(5S)-5-pentyloxolan-2-one,CCCCC[C@H]1CCC(=O)O1,"{'coconut', 'fatty', 'moldy'}",0.774193548,
+,,137,7742,5-propyloxolan-2-one,CCCC1CCC(=O)O1,"{'coconut', 'hay', 'sweet', 'tonka', 'nutty', 'caramellic'}",0.575757576,
+,,138,7057904,(5S)-5-hexyloxolan-2-one,CCCCCC[C@H]1CCC(=O)O1,"{'coconut', 'soft', 'sweet', 'fatty', 'fruity'}",0.806451613,
+,,139,183870,(5R)-5-hexyloxolan-2-one,CCCCCC[C@@H]1CCC(=O)O1,"{'coconut', 'sweet', 'fatty', 'fruity', 'caramellic'}",0.806451613,
+,,140,441644,(5S)-5-heptyloxolan-2-one,CCCCCCC[C@H]1CCC(=O)O1,"{'fatty', 'aldehydic', 'sweet'}",0.806451613,
+,,141,12237820,(5S)-5-octyloxolan-2-one,CCCCCCCC[C@H]1CCC(=O)O1,"{'fatty', 'fruity', 'milky'}",0.806451613,
+,,142,10396,5-tetradecyloxolan-2-one,CCCCCCCCCCCCCCC1CCC(=O)O1,"{'fatty', 'waxy'}",0.806451613,
+,,143,12813,5-hexyloxolan-2-one,CCCCCCC1CCC(=O)O1,"{'fresh', 'coconut', 'sweet', 'waxy', 'oily', 'peach', 'fruity', 'buttery'}",0.806451613,
+,,144,22934582,"7-propan-2-yl-1,5-benzodioxepin-3-one",CC(C)C1=CC2=C(C=C1)OCC(=O)CO2,"{'marine', 'fruity', 'watery', 'clean'}",0.59375,
+,,145,11064349,"7-(3-methylbutyl)-1,5-benzodioxepin-3-one",CC(C)CCC1=CC2=C(C=C1)OCC(=O)CO2,{'marine'},0.513513514,
+,,146,19993347,"6-hexyl-1,4-dioxan-2-one",CCCCCCC1COCC(=O)O1,"{'nutty', 'sweet'}",0.567567568,
+,,147,16821,5-octyloxolan-2-one,CCCCCCCCC1CCC(=O)O1,"{'sweet', 'metallic', 'peach', 'fatty', 'fruity'}",0.806451613,
+,,148,62580,"1,3-benzodioxol-5-ylmethyl 2-methylpropanoate",CC(C)C(=O)OCC1=CC2=C(C=C1)OCO2,"{'berry', 'jammy', 'tropical', 'plum', 'heliotrope', 'powdery', 'fruity'}",0.58974359,
+,,149,6436969,"(E)-3-methyl-5-(2,2,3-trimethylcyclopent-3-en-1-yl)pent-3-en-2-one",CC1=CCC(C1(C)C)C/C=C(\C)/C(=O)C,"{'floral', 'sandalwood', 'orris', 'powdery', 'woody'}",0.657894737,
+,,150,9473,"1,3-benzodioxol-5-ylmethyl acetate",CC(=O)OCC1=CC2=C(C=C1)OCO2,"{'jammy', 'floral', 'sweet', 'metallic', 'hawthorn', 'strawberry'}",0.621621622,
+,,151,1252759,"2-[(1R)-2,2,3-trimethylcyclopent-3-en-1-yl]acetaldehyde",CC1=CC[C@@H](C1(C)C)CC=O,"{'leafy', 'green', 'herbal', 'amber', 'woody'}",0.583333333,
+,,152,62092,(4-methylphenyl) 3-methylbutanoate,CC1=CC=C(C=C1)OC(=O)CC(C)C,"{'animal', 'herbal', 'tobacco', 'sweet'}",0.542857143,
+,,153,84556,(4-methylphenyl) butanoate,CCCC(=O)OC1=CC=C(C=C1)C,"{'animal', 'phenolic', 'narcissus'}",0.558823529,
+,,154,24120,(4-methylphenyl) propanoate,CCC(=O)OC1=CC=C(C=C1)C,{'animal'},0.59375,
+,,155,118782,dec-9-en-2-one,CC(=O)CCCCCCC=C,"{'apple', 'pineapple', 'green', 'fatty', 'fruity', 'pear'}",0.52,
+,,156,8048,ethyl decanoate,CCCCCCCCCC(=O)OCC,"{'apple', 'sweet', 'brandy', 'waxy', 'grape', 'oily', 'fruity'}",0.541666667,
+,,157,229377,propyl heptanoate,CCCCCCC(=O)OCCC,"{'apple', 'sweet', 'pineapple', 'winey', 'green', 'grape', 'ripe', 'fruity', 'pear', 'strawberry'}",0.52,
+,,158,109095,pentyl nonanoate,CCCCCCCCC(=O)OCCCCC,"{'apricot', 'floral', 'cognac'}",0.52,
+,,159,39742,butyl nonanoate,CCCCCCCCC(=O)OCCCC,"{'apricot', 'orange', 'floral', 'rose'}",0.52,
+,,160,21108,non-8-en-2-one,CC(=O)CCCCCC=C,"{'baked', 'fruity'}",0.52,
+,,161,17355,4-phenylbutan-2-one,CC(=O)CCC1=CC=CC=C1,"{'balsamic', 'floral'}",0.653846154,
+,,162,7599,(4-methoxyphenyl)methyl 2-phenylacetate,COC1=CC=C(C=C1)COC(=O)CC2=CC=CC=C2,"{'balsamic', 'honey', 'anisic', 'woody', 'anise'}",0.512820513,
+,,163,3893,dodecanoic acid,CCCCCCCCCCCC(=O)O,"{'bay', 'coconut', 'fatty'}",0.65,
+,,164,14228,hexyl octanoate,CCCCCCCC(=O)OCCCCCC,"{'berry', 'estery', 'apple', 'green', 'waxy', 'fruity'}",0.52,
+,,165,570574,1-phenylethyl butanoate,CCCC(=O)OC(C)C1=CC=CC=C1,"{'berry', 'floral', 'juicy fruit', 'jasmin', 'sweet', 'earthy', 'fruity'}",0.59375,
+,,166,7826,methyl heptanoate,CCCCCCC(=O)OC,"{'berry', 'floral', 'sweet', 'green', 'waxy', 'orris', 'fruity'}",0.565217391,
+,,167,18605,tetradecyl tetradecanoate,CCCCCCCCCCCCCCOC(=O)CCCCCCCCCCCCC,{'bland'},0.52,
+,,168,108902,heptyl decanoate,CCCCCCCCCC(=O)OCCCCCCC,"{'brandy', 'winey', 'cognac'}",0.52,
+,,169,8158,nonanoic acid,CCCCCCCCC(=O)O,"{'cheesy', 'dairy', 'waxy', 'dirty'}",0.65,
+,,170,8892,hexanoic acid,CCCCCC(=O)O,"{'cheesy', 'sour', 'fatty', 'sweaty'}",0.6,
+,,171,118928,undec-10-en-2-one,CC(=O)CCCCCCCC=C,"{'citrus', 'fatty'}",0.52,
+,,172,61415,pentyl heptanoate,CCCCCCC(=O)OCCCCC,"{'coconut', 'banana unripe banana', 'ethereal', 'lemon', 'fruity'}",0.52,
+,,173,8180,undecanoic acid,CCCCCCCCCCC(=O)O,"{'coconut', 'creamy', 'waxy', 'fatty', 'cheesy'}",0.65,
+,,174,11622,tridecan-2-one,CCCCCCCCCCCC(=O)C,"{'coconut', 'earthy', 'herbal', 'waxy', 'fatty', 'dairy', 'nutty', 'milky'}",1,
+,,175,69351,propyl octanoate,CCCCCCCC(=O)OCCC,"{'coconut', 'fatty', 'cocoa', 'cognac', 'winey'}",0.52,
+,,176,61294,octyl octanoate,CCCCCCCCOC(=O)CCCCCCC,"{'coconut', 'fruity', 'oily'}",0.52,
+,,177,8139,methyl dodecanoate,CCCCCCCCCCCC(=O)OC,"{'coconut', 'soapy', 'creamy', 'waxy', 'mushroom'}",0.565217391,
+,,178,12327,ethyl undecanoate,CCCCCCCCCCC(=O)OCC,"{'coconut', 'soapy', 'waxy', 'fatty', 'cognac'}",0.541666667,
+,,179,550768,pentyl decanoate,CCCCCCCCCC(=O)OCCCCC,"{'cognac', 'fruity', 'winey'}",0.52,
+,,180,12366,ethyl hexadecanoate,CCCCCCCCCCCCCCCC(=O)OCC,"{'creamy', 'waxy', 'oily', 'balsamic', 'fruity', 'greasy', 'milky'}",0.541666667,
+,,181,8093,octan-2-one,CCCCCCC(=O)C,"{'earthy', 'herbal', 'natural', 'woody', 'weedy'}",1,
+,,182,61185,pentyl octanoate,CCCCCCCC(=O)OCCCCC,"{'earthy', 'sweet', 'orris', 'cognac', 'fatty', 'elderflower', 'winey'}",0.52,
+,,183,521326,octyl heptanoate,CCCCCCCCOC(=O)CCCCCC,"{'fatty', 'fruity'}",0.52,
+,,184,8047,butyl tetradecanoate,CCCCCCCCCCCCCC(=O)OCCCC,"{'fatty', 'oily'}",0.52,
+,,185,31278,butyl octadecanoate,CCCCCCCCCCCCCCCCCC(=O)OCCCC,"{'fatty', 'oily'}",0.52,
+,,186,8181,methyl hexadecanoate,CCCCCCCCCCCCCCCC(=O)OC,"{'fatty', 'waxy', 'oily', 'orris'}",0.565217391,
+,,187,62571,pentyl dodecanoate,CCCCCCCCCCCC(=O)OCCCCC,"{'fatty', 'waxy', 'oily'}",0.52,
+,,188,31284,methyl tetradecanoate,CCCCCCCCCCCCCC(=O)OC,"{'fatty', 'waxy', 'petal'}",0.565217391,
+,,189,75321,octyl decanoate,CCCCCCCCCC(=O)OCCCCCCCC,"{'fatty', 'waxy'}",0.52,
+,,190,22556,dodecan-2-one,CCCCCCCCCCC(=O)C,"{'floral', 'citrus', 'fruity', 'orange'}",1,
+,,191,8163,undecan-2-one,CCCCCCCCCC(=O)C,"{'floral', 'creamy', 'waxy', 'orris', 'fatty', 'fruity'}",1,
+,,192,8050,methyl decanoate,CCCCCCCCCC(=O)OC,"{'floral', 'fermented', 'oily', 'fruity', 'winey'}",0.565217391,
+,,193,6951704,[(1R)-1-phenylethyl] acetate,C[C@H](C1=CC=CC=C1)OC(=O)C,"{'floral', 'jasmin', 'apple', 'gardenia', 'apricot', 'mimosa', 'fruity'}",1,
+,,194,569214,1-phenylethyl 2-methylpropanoate,CC(C)C(=O)OC(C)C1=CC=CC=C1,"{'floral', 'jasmin', 'tropical', 'green', 'mango', 'fruity'}",0.678571429,
+,,195,69516,naphthalen-2-yl(phenyl)methanone,C1=CC=C(C=C1)C(=O)C2=CC3=CC=CC=C3C=C2,"{'floral', 'naphthyl', 'orangeflower'}",0.607142857,
+,,196,7590,ethyl 2-phenylacetate,CCOC(=O)CC1=CC=CC=C1,"{'floral', 'rose', 'sweet', 'balsamic', 'cocoa', 'honey'}",0.575757576,
+,,197,589365,nonyl octanoate,CCCCCCCCCOC(=O)CCCCCCC,"{'floral', 'rose', 'sweet', 'mushroom', 'cognac'}",0.52,
+,,198,522422,heptyl nonanoate,CCCCCCCCC(=O)OCCCCCCC,"{'floral', 'rose', 'sweet', 'oily', 'orangeflower', 'winey'}",0.52,
+,,199,7007,"(2,2,2-trichloro-1-phenylethyl) acetate",CC(=O)OC(C1=CC=CC=C1)C(Cl)(Cl)Cl,"{'floral', 'soapy', 'rose', 'balsamic', 'powdery'}",0.580645161,
+,,200,25239,2-phenylpropyl acetate,CC(COC(=O)C)C1=CC=CC=C1,"{'floral', 'sweet', 'earthy', 'green', 'lilac', 'hyacinth'}",0.53125,
+,,201,7410,1-phenylethanone,CC(=O)C1=CC=CC=C1,"{'floral', 'sweet', 'hawthorn', 'pungent', 'acacia', 'almond', 'chemical', 'mimosa'}",0.52,
+,,202,62553,propan-2-yl 2-phenylacetate,CC(C)OC(=O)CC1=CC=CC=C1,"{'floral', 'sweet', 'honeysuckle', 'cortex', 'powdery'}",0.514285714,
+,,203,5463908,4-(4-methylphenyl)butan-2-one,CC1=CC=C(C=C1)CCC(=O)C,"{'floral', 'sweet', 'raspberry', 'gardenia', 'plum', 'fruity'}",0.692307692,
+,,204,75515,S-methyl hexanethioate,CCCCCC(=O)SC,"{'floral', 'tropical', 'green', 'ethereal', 'cheesy', 'rancid', 'fruity', 'cabbage'}",0.545454545,
+,,205,67146,(3-methylphenyl) 2-phenylacetate,CC1=CC(=CC=C1)OC(=O)CC2=CC=CC=C2,"{'floral', 'ylang'}",0.705882353,
+,,206,517970,hexyl heptanoate,CCCCCCC(=O)OCCCCCC,"{'foliage', 'green', 'cognac', 'leafy'}",0.52,
+,,207,8432,1-phenylethyl propanoate,CCC(=O)OC(C)C1=CC=CC=C1,"{'fresh', 'floral', 'rose', 'sweet', 'green', 'gardenia', 'weedy'}",0.633333333,
+,,208,22873,hexyl hexanoate,CCCCCCOC(=O)CCCCC,"{'fresh', 'green', 'herbal', 'grassy', 'vegetable', 'fruity'}",0.52,
+,,209,82635,hexyl decanoate,CCCCCCCCCC(=O)OCCCCCC,"{'fresh', 'green'}",0.52,
+,,210,246728,octan-3-one,CCCCCC(=O)CC,"{'fresh', 'lavender', 'sweet', 'herbal', 'mushroom'}",0.736842105,
+,,211,13187,nonan-2-one,CCCCCCCC(=O)C,"{'fresh', 'sweet', 'earthy', 'green', 'herbal', 'fruity', 'weedy'}",1,
+,,212,61342,heptyl octanoate,CCCCCCCC(=O)OCCCCCCC,"{'fresh', 'tropical', 'green', 'waxy', 'oily'}",0.52,
+,,213,15607,methyl undecanoate,CCCCCCCCCCC(=O)OC,"{'fruity', 'fatty', 'waxy'}",0.565217391,
+,,214,61015,butyl dodecanoate,CCCCCCCCCCCC(=O)OCCCC,"{'fruity', 'soapy', 'waxy', 'peanut'}",0.52,
+,,215,29251,hexadecan-2-one,CCCCCCCCCCCCCCC(=O)C,{'fruity'},1,
+,,216,84467,undecan-4-one,CCCCCCCC(=O)CCC,{'fruity'},0.888888889,
+,,217,7802,heptan-3-one,CCCCC(=O)CC,"{'green', 'fatty', 'fruity'}",0.6,
+,,218,69350,heptyl heptanoate,CCCCCCCOC(=O)CCCCCC,"{'green', 'grassy'}",0.52,
+,,219,81464,heptyl hexanoate,CCCCCCCOC(=O)CCCCC,"{'green', 'sappy'}",0.52,
+,,220,121739,propyl decanoate,CCCCCCCCCC(=O)OCCC,"{'green', 'waxy', 'oily', 'fatty', 'vegetable', 'fruity', 'woody'}",0.52,
+,,221,11517,butyl octanoate,CCCCCCCC(=O)OCCCC,"{'herbal', 'ethereal', 'buttery'}",0.52,
+,,222,31210,butyl 2-phenylacetate,CCCCOC(=O)CC1=CC=CC=C1,"{'honey', 'rose', 'chocolate'}",0.513513514,
+,,223,38762,ethyl pentadecanoate,CCCCCCCCCCCCCCC(=O)OCC,"{'honey', 'sweet'}",0.541666667,
+,,224,11344862,(Z)-tetradec-7-en-2-one,CCCCCC/C=C\CCCCC(=O)C,"{'jasmin', 'fruity', 'orris'}",0.739130435,
+,,225,10015,tridecan-7-one,CCCCCCC(=O)CCCCCC,"{'may', 'blossom'}",1,
+,,226,528762,1-methylsulfanyloctan-3-one,CCCCCC(=O)CCSC,"{'meaty', 'dairy'}",0.652173913,
+,,227,11583,hexan-2-one,CCCCC(=O)C,"{'meaty', 'fungal', 'fruity', 'buttery'}",0.777777778,
+,,228,62218,3-methylideneoctan-2-one,CCCCCC(=C)C(=O)C,"{'mushroom', 'fungal', 'musty'}",0.541666667,
+,,229,181106,non-1-en-3-one,CCCCCCC(=O)C=C,"{'mushroom', 'pungent'}",0.541666667,
+,,230,4788,"3-(4-hydroxyphenyl)-1-(2,4,6-trihydroxyphenyl)propan-1-one",C1=CC(=CC=C1CCC(=O)C2=C(C=C(C=C2O)O)O)O,{'odorless'},0.53125,
+,,231,5281,octadecanoic acid,CCCCCCCCCCCCCCCCCC(=O)O,{'odorless'},0.65,
+,,232,12741,decan-2-one,CCCCCCCCC(=O)C,"{'orange', 'floral', 'fatty', 'peach'}",1,
+,,233,13576,decan-3-one,CCCCCCCC(=O)CC,"{'orange', 'floral', 'green', 'waxy', 'citrus', 'fruity'}",0.789473684,
+,,234,53437836,nonyl heptanoate,CCCCCCCCCOC(=O)CCCCCC,"{'orange', 'floral', 'rose', 'herbal', 'cognac'}",0.52,
+,,235,522874,nonyl nonanoate,CCCCCCCCCOC(=O)CCCCCCCC,"{'orange', 'floral', 'rose', 'oily', 'aldehydic', 'fruity'}",0.52,
+,,236,8091,methyl octanoate,CCCCCCCC(=O)OC,"{'orange', 'sweet', 'green', 'herbal', 'waxy', 'aldehydic', 'vegetable'}",0.565217391,
+,,237,8797,(4-methylphenyl) acetate,CC1=CC=C(C=C1)OC(=O)C,"{'phenolic', 'floral', 'narcissus', 'animal'}",0.548387097,
+,,238,7824,methyl hexanoate,CCCCCC(=O)OC,"{'pineapple', 'fruit tropical fruit', 'apricot', 'ethereal', 'bacon', 'banana', 'fruity', 'strawberry'}",0.52173913,
+,,239,31246,heptan-4-one,CCCC(=O)CCC,"{'pineapple', 'sweet', 'fruity', 'cognac', 'cheesy'}",0.555555556,
+,,240,11005,tetradecanoic acid,CCCCCCCCCCCCCC(=O)O,"{'soapy', 'coconut', 'fatty', 'waxy'}",0.65,
+,,241,2969,decanoic acid,CCCCCCCCCC(=O)O,"{'sour', 'citrus', 'fatty', 'rancid'}",0.65,
+,,242,8051,heptan-2-one,CCCCCC(=O)C,"{'spicy', 'coconut', 'sweet', 'herbal', 'cheesy', 'fruity', 'woody'}",0.941176471,
+,,243,61331,(2-methoxyphenyl) 2-phenylacetate,COC1=CC=CC=C1OC(=O)CC2=CC=CC=C2,"{'spicy', 'floral', 'sausage smoked sausage', 'balsamic', 'phenolic', 'honey', 'powdery', 'woody'}",0.555555556,
+,,244,7559,methyl 2-phenylacetate,COC(=O)CC1=CC=CC=C1,"{'spicy', 'floral', 'sweet', 'waxy', 'honey', 'almond'}",0.5625,
+,,245,61235,nonan-3-one,CCCCCCC(=O)CC,"{'spicy', 'fresh', 'floral', 'jasmin', 'sweet', 'leafy', 'herbal', 'fruity'}",0.789473684,
+,,246,70456,"N,N-diethyloctanamide",CCCCCCCC(=O)N(CC)CC,"{'spicy', 'fresh', 'minty', 'sweet', 'tobacco', 'fruity', 'woody'}",0.565217391,
+,,247,31211,4-(4-hydroxy-3-methoxyphenyl)butan-2-one,CC(=O)CCC1=CC(=C(C=C1)O)OC,"{'spicy', 'sweet', 'phenolic', 'ginger', 'vanilla', 'woody'}",0.529411765,
+,,248,8094,heptanoic acid,CCCCCCC(=O)O,"{'sweaty', 'sour', 'cheesy', 'rancid'}",0.65,
+,,249,7895,pentan-2-one,CCCC(=O)C,"{'sweet', 'ethereal', 'woody', 'banana', 'fruity', 'winey'}",0.578947368,
+,,250,15606,methyl nonanoate,CCCCCCCCC(=O)OC,"{'sweet', 'tropical', 'winey', 'waxy', 'fruity', 'pear'}",0.565217391,
+,,251,21596,butyl heptanoate,CCCCCCC(=O)OCCCC,"{'tropical', 'green', 'starfruit', 'oily', 'grassy', 'pear', 'fruity', 'winey', 'licorice'}",0.52,
+,,252,31283,ethyl tetradecanoate,CCCCCCCCCCCCCC(=O)OCC,"{'violet', 'waxy', 'sweet', 'orris'}",0.541666667,
+,,253,379,octanoic acid,CCCCCCCC(=O)O,"{'waxy', 'oily', 'fatty', 'rancid', 'vegetable', 'cheesy'}",0.65,
+,,254,8201,methyl octadecanoate,CCCCCCCCCCCCCCCCCC(=O)OC,"{'waxy', 'oily'}",0.565217391,
+,,255,12530,tridecanoic acid,CCCCCCCCCCCCC(=O)O,"{'waxy', 'woody'}",0.65,
+,,256,8122,ethyl octadecanoate,CCCCCCCCCCCCCCCCCC(=O)OCC,{'waxy'},0.541666667,
+,,257,13849,pentadecanoic acid,CCCCCCCCCCCCCCC(=O)O,{'waxy'},0.65,
+,,258,35408,butyl decanoate,CCCCCCCCCC(=O)OCCCC,{'whiskey'},0.52,
+,,259,81006,propyl nonanoate,CCCCCCCCC(=O)OCCC,"{'yeasty', 'melon', 'fermented'}",0.52,
+,,260,109264,"1-(2,6,6-trimethylcyclohexen-1-yl)pent-1-en-3-ol",CCC(C=CC1=C(CCCC1(C)C)C)O,"{'berry', 'fruity'}",0.525,
+,,261,102816,2-heptyloxolane,CCCCCCCC1CCCO1,"{'floral', 'rose', 'green', 'waxy', 'natural', 'pea green pea'}",0.514285714,
+,,262,103499,"3-methyl-4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-ol",CC1=C(C(CCC1)(C)C)C=C(C)C(C)O,"{'vetiver', 'woody'}",0.552631579,
+,,263,5373729,"(E)-4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-ol",CC1=C(C(CCC1)(C)C)/C=C/C(C)O,"{'violet', 'floral', 'sweet', 'tropical', 'herbal', 'balsamic', 'woody'}",0.567567568,
+,,264,6436846,"(1E)-3-methyl-1-(2,6,6-trimethylcyclohexen-1-yl)penta-1,4-dien-3-ol",CC1=C(C(CCC1)(C)C)/C=C/C(C)(C=C)O,{'woody'},0.578947368,
+,,265,61284,"2-(2,2,3-trimethylcyclopent-3-en-1-yl)ethanol",CC1=CCC(C1(C)C)CCO,"{'berry', 'camphoreous', 'sweet'}",0.555555556,
+,,266,10322,"1,3-benzodioxol-5-ylmethanol",C1OC2=C(O1)C=C(C=C2)CO,"{'powdery', 'vanilla', 'sweet'}",0.558823529,
+,,267,6437460,"(E)-3-methyl-5-(2,2,3-trimethylcyclopent-3-en-1-yl)pent-3-en-2-ol",CC1=CCC(C1(C)C)C/C=C(\C)/C(C)O,"{'spicy', 'sandalwood', 'oily', 'powdery', 'woody'}",0.641025641,
+,,268,7197,"5-propyl-1,3-benzodioxole",CCCC1=CC2=C(C=C1)OCO2,"{'spicy', 'sassafrass'}",0.617647059,
+,,269,103401,6-butan-2-ylquinoline,CCC(C)C1=CC2=C(C=C1)N=CC=C2,"{'earthy', 'oakmoss', 'vetiver', 'animal', 'leathery', 'castoreum'}",0.529411765,
+,,270,67285,6-propan-2-ylquinoline,CC(C)C1=CC2=C(C=C1)N=CC=C2,"{'leafy', 'earthy', 'metallic', 'green', 'phenolic', 'cortex', 'nutty', 'weedy'}",0.580645161,
+,,271,7047,quinoline,C1=CC=C2C(=C1)C=CC=N2,"{'musty', 'earthy', 'tobacco', 'rubbery', 'medicinal'}",0.538461538,
+,,272,12580,4-propylphenol,CCCC1=CC=C(C=C1)O,"{'phenolic', 'medicinal'}",0.538461538,

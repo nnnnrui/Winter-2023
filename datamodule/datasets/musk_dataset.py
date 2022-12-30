@@ -10,7 +10,7 @@ import torch.nn.functional as F
 from . import ATOM_TYPES, BOND_TYPES
 import torch
 
-dfdata = pd.read_csv("data/musk/raw/musk_label_data.csv")
+dfdata = pd.read_csv("data/musk/raw/musk_target.csv")
 
 class MuskDataset(InMemoryDataset):
     def __init__(self, root: str = "data/musk", transform=None, pre_transform=None, pre_filter=None):
@@ -19,7 +19,7 @@ class MuskDataset(InMemoryDataset):
 
     @property
     def raw_file_names(self):
-        return ['musk_label_data.csv']
+        return ['musk_target.csv']
 
     @property
     def processed_file_names(self):
@@ -32,10 +32,10 @@ class MuskDataset(InMemoryDataset):
         # Read data into huge `Data` list.
         print(df)
         molecules_list = df["Smile"].tolist()
-        molecules_name_list = df["Common Name"].tolist()
+        molecules_name_list = df["common name"].tolist()
 
         lbe = LabelEncoder()
-        target_val = np.expand_dims(lbe.fit_transform(df["cOR5A2 activity"]), axis=1)
+        target_val = np.expand_dims(lbe.fit_transform(df["target"]), axis=1)
         target_val = (np.concatenate((target_val,1-target_val), axis=1))
         
 
