@@ -7,7 +7,7 @@ from torch.nn import BatchNorm1d, Dropout, SELU
 from datamodule.datasets.kellerdataset import KellerDataset
 from datamodule.datasets.dravnieks_dataset import DravnieksDataset
 from datamodule.datasets.musk_dataset import MuskDataset
-from datamodule.musk_cv_datamodule import MuskDataModule
+from pytorch_lightning.utilities.seed import seed_everything
 import torch.nn.functional as F
 from sklearn.metrics import r2_score, mean_squared_error
 from sklearn.model_selection import train_test_split
@@ -17,7 +17,6 @@ from tqdm import tqdm
 import numpy as np
 import pandas as pd
 
-torch.manual_seed(42)
 random_seed = 42
 dataset = MuskDataset()
 
@@ -119,7 +118,7 @@ class GCN(torch.nn.Module):
         x = scatter(x[row], col, dim=0, reduce="max")
         return x
 
-model = GCN(hidden_channels=[15,20,27,36], pool_dim=175, fully_connected_channels=[84, 42, 16])
+model = GCN(hidden_channels=[15,20,27,36], pool_dim=175, fully_connected_channels=[92, 54, 8])
 print(model)
 optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 criterion = torch.nn.BCELoss()
@@ -167,6 +166,7 @@ if __name__=="__main__":
     
     test_loader = DataLoader(test_data, batch_size=32, shuffle=True)
 
+    seed_everything(42)
     split = split_geometric(dataset=train_data,K=K)
     for i, (train_idx, val_idx) in enumerate(split):
         val_idx=train_idx
