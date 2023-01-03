@@ -70,22 +70,22 @@ class GCN(torch.nn.Module):
         readout=0
 
         x = self.conv1(x, edge_index)
-        x = x.relu()
+        x = self.activate(x)
         x = self.max_graph_pool(x, edge_index)
         readout += F.softmax(self.lin_1(x), dim=-1)
 
         x = self.conv2(x, edge_index)
-        x = x.relu()
+        x = self.activate(x)
         x = self.max_graph_pool(x, edge_index)
         readout += F.softmax(self.lin_2(x), dim=-1)
         
         x = self.conv3(x, edge_index)
-        x = x.relu()
+        x = self.activate(x)
         x = self.max_graph_pool(x, edge_index)
         readout += F.softmax(self.lin_3(x), dim=-1)
 
         x = self.conv4(x, edge_index)
-        x = x.relu()
+        x = self.activate(x)
         x = self.max_graph_pool(x, edge_index)
         readout += F.softmax(self.lin_4(x), dim=-1)
 
@@ -122,9 +122,9 @@ class GCN(torch.nn.Module):
         x = scatter(x[row], col, dim=0, reduce="max")
         return x
 
-model = GCN(hidden_channels=[15,20,27,36], pool_dim=175, fully_connected_channels=[96, 63, 32])
+model = GCN(hidden_channels=[15,20,27,36], pool_dim=175, fully_connected_channels=[84, 42, 16])
 print(model)
-optimizer = torch.optim.Adam(model.parameters(), lr=0.0005)
+optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 criterion = torch.nn.BCELoss()
 scheduler = torch.optim.lr_scheduler.ConstantLR(optimizer)
 
@@ -178,8 +178,8 @@ if __name__=="__main__":
         train_dataset = train_data[train_idx]
         val_dataset = train_data[val_idx]
 
-        train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
-        val_loader = DataLoader(val_dataset, batch_size=32, shuffle=True)
+        train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True)
+        val_loader = DataLoader(val_dataset, batch_size=16, shuffle=True)
         for epoch in tqdm(range(1, num_epoch)):
             train(train_loader)
             _,_,val_loss = test(val_loader)
