@@ -19,8 +19,6 @@ import pandas as pd
 
 torch.manual_seed(42)
 random_seed = 42
-# traindataset = DravnieksDataset()
-# testdataset = KellerDataset()
 dataset = MuskDataset()
 
 data = "musk"
@@ -91,7 +89,6 @@ class GCN(torch.nn.Module):
 
         # 2. Readout layer
         x = global_add_pool(readout, batch)  # [batch_size, hidden_channels]
-        # x = F.softmax(x, dim=1)
 
         # 3. Fully Connected Neural Net
         x = self.lin1(x)
@@ -160,7 +157,6 @@ def test(loader):
     return  binary_accuracy(pred,y).item(), multiclass_auroc(out_proba, y_truth[:,1], num_classes=2).item(), criterion(out[:,1].float(), data.y[:,1].float()).item()
 
 if __name__=="__main__":
-    # column = pd.read_csv(f"data/{data}/raw/{data}_label_data.csv").iloc[:,4:].columns
     num_epoch = 300
     K = 5
     n_epochs_stop = 100
@@ -185,12 +181,10 @@ if __name__=="__main__":
             _,_,val_loss = test(val_loader)
 
             if val_loss < min_val_loss:
-                # print(min_val_loss)
                 epochs_no_improve = 0
                 min_val_loss = val_loss
             else:
                 epochs_no_improve += 1
-                # print(epochs_no_improve)
             
             if epoch > 5 and epochs_no_improve == n_epochs_stop:
                 early_stop = True
@@ -207,7 +201,5 @@ if __name__=="__main__":
 
         df["train"].loc[i] = (train_acc, train_auroc)
         df["test"].loc[i] = (acc, auroc)
-        # print(df)
 
-    # df.to_csv(f"outputs/performance_{data}.csv")
     print(df)
